@@ -1,0 +1,58 @@
+body {
+    margin: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: #090909;
+}
+
+.menu p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.primeiro {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    height: 80px;
+
+
+}
+
+.esquerdo {
+    text-align: right;
+}
+
+.esquerdobaixo {
+    text-align: end;
+    font-size: 35px;
+}
+
+.bicicleta {
+
+    max-width: 100%;
+}
+
+
+
+
+
